@@ -3,7 +3,7 @@
 
 // Manages events with payload T.
 // Order of callbacks is not maintained.
-// It is reccommended to use struct/class payloads.
+// It is recommended to use struct/class payloads.
 template <class T>
 class Event {
   private:
