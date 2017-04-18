@@ -1,5 +1,5 @@
 #include <iostream>
-#include "event.hpp"
+#include "events/event.hpp"
 
 // Create a PositionData payload.
 struct PositionData {
@@ -7,7 +7,7 @@ struct PositionData {
   int y;
 };
 // Create PositionChangeEvent which dispatches a paylaod of PositionData.
-static auto PositionChangeEvent = Event<PositionData>();
+static auto PositionChangeEvent = kuuhaku::events::Event<PositionData>();
 
 // Create some callbacks which can subscribe to events with a
 // PositionData payload.
