@@ -7,7 +7,7 @@ struct PositionData {
   int y;
 };
 // Create PositionChangeEvent which dispatches a paylaod of PositionData.
-static auto PositionChangeEvent = kuuhaku::events::Event<PositionData>();
+static const auto PositionChangeEvent = kuuhaku::events::Event<PositionData>();
 
 // Create some callbacks which can subscribe to events with a
 // PositionData payload.
