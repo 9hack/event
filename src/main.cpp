@@ -2,7 +2,7 @@
 #include "event.hpp"
 
 // Create a PositionData payload.
-static struct PositionData {
+struct PositionData {
   int x;
   int y;
 };

@@ -1,3 +1,6 @@
+#ifndef __9HACK_EVENT_H__
+#define __9HACK_EVENT_H__
+
 #include <unordered_set>
 
 // Manages events with payload T.
@@ -29,3 +32,5 @@ class Event {
         (*cb)(data);
     }
 };
+
+#endif /* ifndef __9HACK_EVENT_H__ */
