@@ -1,5 +1,5 @@
 #include <iostream>
-#include "events/event.hpp"
+#include "events/event.h"
 
 // Create a PositionData payload.
 struct PositionData {
